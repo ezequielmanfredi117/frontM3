@@ -1,0 +1,32 @@
+.back{
+    background: linear-gradient(rgba(5, 7, 12, 0.99), rgba(5, 7, 12, 0.99)),
+    url('../../assets/360_F_34293634_cUgxYvxzMQrfG5EfYjsz9SmbnfFyR2et.jpg')
+    no-repeat;  
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
+    width: 230vh;
+}
+.mainContent {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh; /* Asegura que ocupe toda la altura de la pantalla */
+    padding: 20px;
+}
+
+h2 {
+    color: aliceblue;
+    font-size: 36px; /* Reducir tamaño de fuente */
+    margin-top: 50px;
+    margin-bottom: 20px; /* Ajustar margen inferior para separar del contenido */
+    text-align: center;
+}
+
+p {
+    color: aliceblue;
+    font-size: 24px; /* Reducir tamaño de fuente */
+    text-align: center;
+}
+

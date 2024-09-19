@@ -1,0 +1,68 @@
+.turnoContainer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 600px;
+    background-color: transparent;
+    color: blanchedalmond;
+    border-radius: 10px;
+    padding: 10px;
+    backdrop-filter: blur(30px);
+    border: 2px solid rgba(245, 243, 243, 0.1);
+    box-shadow: 0 0 10px rgba(4, 245, 245, 0.925);
+    margin: 10px auto; /* Para dar espacio entre turnos */
+  }
+  
+  .turnoContainer h3 {
+    font-size: 14px;
+    margin: 0 10px;
+  }
+  
+
+
+.icon {
+    position: absolute;
+    right: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 14px;
+}
+
+.button {
+    width: 80%;
+    height: 30px;
+    background-color: #f9f9fa;
+    padding: 5px;
+    color: rgb(61, 60, 60);
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 10px;
+    font-weight: 700;
+    box-shadow: 0 0 10px rgba(0,0, 0, .1);
+    margin-left: 10px;
+}
+
+.button:disabled {
+    background-color: #5a5858;
+    cursor: not-allowed;
+}
+
+.button:not(:disabled):hover{
+    color:#d6b1b9;
+    background-color: #047f83;
+    transform: scale(1.1);
+}
+
+    
+
+    .cancelled {
+        color: red;
+    }
+    
+    .pending {
+        color: green;
+    }

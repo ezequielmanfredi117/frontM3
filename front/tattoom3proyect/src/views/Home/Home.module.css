@@ -1,0 +1,84 @@
+
+/* Estilo general del contenedor principal */
+.home-container {
+    display: flex;
+    width: 225vh;
+    height: 100vh; /* Asegura que el contenedor ocupe toda la altura de la ventana */
+    overflow: hidden; /* Evita barras de desplazamiento innecesarias */
+    margin: 0;
+    padding: 0;
+}
+
+/* Estilo para la sección de contenido */
+.content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center; /* Alinea el contenido a la izquierda */
+    padding: 20px;
+    width: 50%; /* La mitad izquierda de la pantalla */
+    background-color: rgba(0, 0, 0, 0.5); /* Fondo semitransparente para mejor legibilidad */
+    color: aliceblue;
+}
+
+/* Estilo para la sección de la imagen */
+.image-container {
+    flex: 1; /* Ocupa el resto del espacio disponible */
+    background-image: url('../../assets/istockphoto-1184219605-612x612.jpg'); /* Asegúrate de que la ruta sea correcta */
+    background-size: cover;
+    background-position: center;
+    min-width: 50%;
+}
+
+/* Estilo para el encabezado principal */
+h1 {
+    font-size: 80px;
+    margin: 50px;
+}
+
+/* Estilo para el título secundario */
+h3 {
+    margin-top: 0px;
+}
+
+h2{
+    font-size: 100px;
+    font-weight: 700;
+}
+
+/* Estilo del enlace de login */
+.loginLink {
+    font-weight: 700;
+    color: crimson;
+    background-color: antiquewhite;
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+.loginLink:hover {
+    text-decoration: underline;
+}
+
+body, html {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+/* Estilo para el texto de registro */
+.registerPrompt {
+    margin-top: 20px;
+    font-size: 16px;
+}
+
+/* Estilo del enlace de registro */
+.registerLink {
+    font-weight: 700;
+    color: rgb(240, 143, 235);
+    text-decoration: none;
+}
+
+.registerLink:hover {
+    text-decoration: underline;
+}
